@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRADING SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+
+   
+</head>
+<body class="boddy">
+
+    <div class="square">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+      </div>
+
+      <div class="square">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+      </div>
+
+      <div class="square">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+      </div>
+      
+      <div class="square">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+      </div>
+      <section class="text-center row shadow mx-auto mt-5">
+        <div class="rounded col-lg col-sm-12 border-warning border-3 p-4 shadow" id="parent">
+            <div id="score">
+                <h2>GRADING SYSTEM</h2>
+                <div class="input-group mb-4">
+                    <input type="number" class="form-control p-3" placeholder="Enter your score" aria-label="Enter your score" aria-describedby="button-addon2" id="scoreOfUser">
+
+                    <button class="btn btn-outline-secondary btn-success text-white" type="button" id="button-addon2" onclick="gradeMe()">Check</button>
+                </div>
+            </div>
+            <input type="text" class="form-control w-50 mx-auto" disabled placeholder="See Result Here" id="Jago">
+        </div>
+    </section>
+
+
+    <script>
+      
+      var song = "failure.mp3"
+      var songfail = new Audio(song)
+
+      var pass = "credit.mp3"
+      var songpass = new Audio(pass)
+
+      var Average = "average.mp3"
+      var songaverage = new Audio(Average)
+
+      var Credit = "pass1.mp3"
+      var songcredit = new Audio(Credit)
+
+      var Good = "good.mp3"
+      var songgood = new Audio(Good)
+
+      var Excellent = "excellent.mp3"
+      var songexcellent = new Audio(Excellent)
+      function gradeMe(){
+        
+    if (scoreOfUser.value == ""){
+        Jago.value = "INVALID"
+    }
+    else if(scoreOfUser.value >=0 && scoreOfUser.value<40) {
+        Jago.value = "F - Fail🥴"
+        songfail.play()
+    }
+    else if(scoreOfUser.value >= 40 && scoreOfUser.value < 45){
+        Jago.value = "E - Pass😔"
+        songpass.play()
+        
+    }
+    else if(scoreOfUser.value>=45 && scoreOfUser.value<50){
+        Jago.value = "D - Average😬"
+        songaverage.play()
+        
+      
+    }
+    else if(scoreOfUser.value>=50 && scoreOfUser.value<60){
+        Jago.value = "C - Credit🤔"
+        songcredit.play()
+        
+        
+    }
+    else if(scoreOfUser.value>=60 && scoreOfUser.value<70){
+        Jago.value = "B - Good🙂"
+        songgood.play()
+       
+        
+    }
+
+    else if(scoreOfUser.value >=70 && scoreOfUser.value <=100){
+        Jago.value = "A - Excellent😀"
+        songexcellent.play()
+       
+      
+    }
+   
+    else{
+        Jago.value = "Not recognised"
+        
+        
+    }
+    }
+    </script>
+</body>
+</html>
