@@ -134,3 +134,8 @@ header {
     display: none;
   }
 }
+@media (max-width:280px) {
+    section{
+      font-size: 10px;
+    } 
+}
