@@ -11,9 +11,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(green, red, yellow, blue);
-
-  
+  background: linear-gradient(135deg, #153677, #4e085f);
+}
+.hh{
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 30px;
 }
 .square{
   position: absolute;
