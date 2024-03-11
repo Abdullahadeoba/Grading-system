@@ -30,6 +30,7 @@
 .square span{
   height: 60px;
   width: 60px;
+  border-radius: 10px;
   background-color: aliceblue;
   animation: move 10s linear infinite;
   position: relative;
