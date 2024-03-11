@@ -28,9 +28,9 @@
   justify-content: space-around;
 }
 .square span{
-  height: 60px;
-  width: 60px;
-  border-radius: 10px;
+  height: 80px;
+  width: 30px;
+  border-radius: 40px;
   background-color: aliceblue;
   animation: move 10s linear infinite;
   position: relative;
@@ -43,11 +43,11 @@
   }
 }
 .square span.one{
-  animation-delay: 2.2s;
+  animation-delay: 1.2s;
   transform: scale(2.15)
 }
 .square span.two{
-  animation-delay: 3.5s;
+  animation-delay: 2.5s;
   transform: scale(1.55)
 }
 .square span.three{
@@ -55,7 +55,7 @@
   transform: scale(0.35)
 }
 .square span.four{
-  animation-delay: 6s;
+  animation-delay: 3s;
   transform: scale(2.15)
 }
 .square span.five{
@@ -76,7 +76,7 @@
   left: 0;
   top: 0;
   height: 60px;
-  width: 40%;
+  width: 20%;
   transform: skew(45deg) translateX(150px);
   background-color: aliceblue;
   animation: mirror 5s linear infinite;
