@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #153677, #4e085f);
+  background: linear-gradient(135deg, #0ea548, #4e085f);
 }
 .hh{
   color: #ffffff;
@@ -34,6 +34,7 @@
   animation: move 10s linear infinite;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(45deg, #effc34, #2fe342);
 }
 @keyframes move {
   100%{
