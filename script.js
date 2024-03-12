@@ -1,4 +1,4 @@
-var song = "failure.mp3"
+      var song = "failure.mp3"
       var songfail = new Audio(song)
 
       var pass = "credit.mp3"
