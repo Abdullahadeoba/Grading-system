@@ -24,7 +24,7 @@
       function gradeMe(){
         
     if (scoreOfUser.value == ""){
-        Jago.value = "INVALID"
+        Jago.value = "INVALID" 
         songinvalid.play()
     }
     else if(scoreOfUser.value >=0 && scoreOfUser.value<40) {
