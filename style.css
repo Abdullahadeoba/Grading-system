@@ -101,11 +101,11 @@
   animation-delay: 7s;
   transform: scale(0.5)
 }
-.square span.six{
+.squa span.six{
   animation-delay: 4s;
   transform: scale(2.5)
 }
-.square span.seven{
+.squar span.seven{
   animation-delay: 2s;
   transform: scale(1.5)
 }
@@ -177,6 +177,12 @@ header {
   }
   .square{
     display: none;
+  }
+  .squar{
+    display:none;
+  }
+  .squa{
+    display:none;
   }
 }
 
