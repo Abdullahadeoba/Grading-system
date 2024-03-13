@@ -152,7 +152,7 @@ h2 {
     font-size: 35px;
     columns: white;
 }
-#scoreofUser::placeholder{
+#userInput::placeholder{
     font-family: 'Bree Serif', serif;
     font-size: 25px;
 }

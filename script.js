@@ -25,7 +25,7 @@
       
       function Checkgrade(){
     if (userInput.value == ""){
-        Jago.value = "INVALID" 
+        Jago.value = "Input Your Score" 
         songinvalid.play()
     }
     else if(userInput.value >=0 && userInput.value<40) {
