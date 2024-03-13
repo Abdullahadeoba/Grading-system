@@ -14,9 +14,10 @@
   background: linear-gradient(135deg, #0ea548, #4e085f);
 }
 .hh{
-  color: #ffffff;
+  color: #fff;
   font-weight: bolder;
   font-size: 30px;
+ 
 }
 .square{
   position: absolute;
@@ -124,6 +125,9 @@ h2 {
 #J::placeholder{
     font-family: 'Bree Serif', serif;
     font-size: 15px;
+}
+::placeholder{
+  text-align:center;
 }
 header {
     font-family: 'Bree Serif', serif;
