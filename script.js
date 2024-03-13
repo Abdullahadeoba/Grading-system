@@ -7,10 +7,10 @@
       var Average = "average.mp3"
       var songaverage = new Audio(Average)
 
-      var Credit = "pass1.mp3"
+      var Credit = "good.mp3"
       var songpass = new Audio(Credit)
 
-      var Good = "good.mp3"
+      var Good = "pass1.mp3"
       var songgood = new Audio(Good)
 
       var Excellent = "audience clapping.mp3"
