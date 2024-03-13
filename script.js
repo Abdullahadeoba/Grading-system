@@ -21,41 +21,42 @@
 
       var Excellent = "audience clapping.mp3"
       var songexcellent = new Audio(Excellent)
-      function gradeMe(){
-        
-    if (scoreOfUser.value == ""){
+
+      
+      function Checkgrade(){
+    if (userInput.value == ""){
         Jago.value = "INVALID" 
         songinvalid.play()
     }
-    else if(scoreOfUser.value >=0 && scoreOfUser.value<40) {
+    else if(userInput.value >=0 && userInput.value<40) {
         Jago.value = "F - Fail🥴"
         songfail.play()
     }
-    else if(scoreOfUser.value >= 40 && scoreOfUser.value < 45){
+    else if(userInput.value >= 40 && userInput.value < 45){
         Jago.value = "E - Pass😔"
         songpass.play()
         
     }
-    else if(scoreOfUser.value>=45 && scoreOfUser.value<50){
+    else if(userInput.value>=45 && userInput.value<50){
         Jago.value = "D - Average😬"
         songaverage.play()
         
       
     }
-    else if(scoreOfUser.value>=50 && scoreOfUser.value<60){
+    else if(userInput.value>=50 && userInput.value<60){
         Jago.value = "C - Credit🤔"
         songcredit.play()
         
         
     }
-    else if(scoreOfUser.value>=60 && scoreOfUser.value<70){
+    else if(userInput.value>=60 && userInput.value<70){
         Jago.value = "B - Good🙂"
         songgood.play()
        
         
     }
 
-    else if(scoreOfUser.value >=70 && scoreOfUser.value <=100){
+    else if(userInput.value >=70 && userInput.value <=100){
         Jago.value = "A - Excellent😀"
         songexcellent.play()
        
