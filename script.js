@@ -13,6 +13,12 @@
       var Good = "pass1.mp3"
       var songgood = new Audio(Good)
 
+      var Good = "not recognise.mp3"
+      var songnot = new Audio(Not)
+
+      var Good = "invalid.mp3"
+      var songinvalid = new Audio(Invalid)
+
       var Excellent = "audience clapping.mp3"
       var songexcellent = new Audio(Excellent)
       function gradeMe(){
