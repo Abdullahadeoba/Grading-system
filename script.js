@@ -13,13 +13,13 @@
       var Good = "audio/pass1.mp3"
       var songgood = new Audio(Good)
 
-      var Good = "audio/not recognise.mp3"
+      var Not = "audio/notrecognise.mp3"
       var songnot = new Audio(Not)
 
       var Good = "audio/invalid.mp3"
       var songinvalid = new Audio(Invalid)
 
-      var Excellent = "audio/audience clapping.mp3"
+      var Excellent = "audio/excellent.mp3"
       var songexcellent = new Audio(Excellent)
 
       
