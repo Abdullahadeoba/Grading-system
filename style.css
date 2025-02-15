@@ -19,7 +19,7 @@
   font-size: 30px;
  
 }
-.square{
+/* .square{
   position: absolute;
   bottom: -120px;
   display: flex;
@@ -124,8 +124,8 @@
   100%{
     transform: translateX(-450px);
   }
-}
-.square span.one:before{
+} */
+/* .square span.one:before{
   animation-delay: 1.5s;
 }
 .square span.two:before{
@@ -145,7 +145,7 @@
 }
 .square span.seven:before{
   animation-delay: 2s;
-}
+} */
 
 h2 {
     font-family: 'Bree Serif', serif;
@@ -176,6 +176,9 @@ header {
       height: 100vh;
   }
   #userInput::placeholder{
+    font-size: 15px;
+  }
+  #Jago::placeholder{
     font-size: 15px;
   }
 }
