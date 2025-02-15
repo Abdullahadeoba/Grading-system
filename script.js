@@ -1,25 +1,25 @@
-      var song = "failure.mp3"
+      var song = "audio/failure.mp3"
       var songfail = new Audio(song)
 
-      var pass = "credit.mp3"
+      var pass = "audio/credit.mp3"
       var songcredit = new Audio(pass)
 
-      var Average = "average.mp3"
+      var Average = "audio/average.mp3"
       var songaverage = new Audio(Average)
 
-      var Credit = "good.mp3"
+      var Credit = "audio/good.mp3"
       var songpass = new Audio(Credit)
 
-      var Good = "pass1.mp3"
+      var Good = "audio/pass1.mp3"
       var songgood = new Audio(Good)
 
-      var Good = "not recognise.mp3"
+      var Good = "audio/not recognise.mp3"
       var songnot = new Audio(Not)
 
-      var Good = "invalid.mp3"
+      var Good = "audio/invalid.mp3"
       var songinvalid = new Audio(Invalid)
 
-      var Excellent = "audience clapping.mp3"
+      var Excellent = "audio/audience clapping.mp3"
       var songexcellent = new Audio(Excellent)
 
       
